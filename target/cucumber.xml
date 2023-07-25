@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.152" tests="10" skipped="0" failures="0" errors="0">
+<testcase classname="Testing background keyword" name="Background example one" time="0.017">
+<system-out><![CDATA[
+Given First.................................................................passed
+When Second.................................................................passed
+Then Third..................................................................passed
+Given background given one..................................................passed
+When backgorund when one....................................................passed
+Then background then one....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing background keyword" name="Background example two" time="0.003">
+<system-out><![CDATA[
+Given First.................................................................passed
+When Second.................................................................passed
+Then Third..................................................................passed
+Given background given two..................................................passed
+When background when two....................................................passed
+Then background then two....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DataTable practice" name="Fill  form" time="0.004">
+<system-out><![CDATA[
+Given user is on sign up screen.............................................passed
+Then user enter details.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Hooks Example" name="Hook one scenario" time="0.002">
+<system-out><![CDATA[
+Given example of given one..................................................passed
+When example of when one....................................................passed
+Then example of then one....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Hooks Example" name="Hook two scenario" time="0.001">
+<system-out><![CDATA[
+Given example of given two..................................................passed
+When example of when two....................................................passed
+Then example of then two....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validation Login Functionality" name="Test Successful login case" time="0.002">
+<system-out><![CDATA[
+Given User is on the login screen...........................................passed
+When User provides correct username.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating Login Functionality" name="Test Successful login case - Example #1.1" time="0.002">
+<system-out><![CDATA[
+Given user is on the login screen outline...................................passed
+When user provides correct username outline="userA".........................passed
+And user provides correct password outline="passA"..........................passed
+Then user must login outline................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating Login Functionality" name="Test Successful login case - Example #1.2" time="0.002">
+<system-out><![CDATA[
+Given user is on the login screen outline...................................passed
+When user provides correct username outline="userB".........................passed
+And user provides correct password outline="passB"..........................passed
+Then user must login outline................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating payment functionality" name="Gpay integration is selected" time="0">
+<system-out><![CDATA[
+Given user already has an account on Gpay...................................passed
+When userid is correct......................................................passed
+Then Gpay message should be sent............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating payment functionality" name="PhonePe integration is selected" time="0.001">
+<system-out><![CDATA[
+Given user already has an account on PhonePe................................passed
+When userid is correct......................................................passed
+Then PhonePe message should be sent.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
